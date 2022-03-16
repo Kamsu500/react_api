@@ -10,8 +10,8 @@ import { getAllPokemon,getPokemon } from './services/pokemon'
 
 function App() {
     const [pokemonData,setPokemonData]=useState([]);
-    const [nextUrl,setNextUrl]=useState('');
-    const [prevUrl,setPrevUrl]=useState('');
+   /*  const [nextUrl,setNextUrl]=useState('');
+    const [prevUrl,setPrevUrl]=useState(''); */
     const [loading,setLoading]=useState(true);
     const initialUrl='https://pokeapi.co/api/v2/pokemon'
 
@@ -19,8 +19,8 @@ function App() {
       async function fetchData(){
         let response = await getAllPokemon(initialUrl);
         console.log(response);
-        setNextUrl(response.next);
-        setPrevUrl(response.previous);
+      /*   setNextUrl(response.next);
+        setPrevUrl(response.previous); */
         await loadingpPokemon(response.results)
         setLoading(false);
       }
