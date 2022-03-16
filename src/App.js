@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
+import Add from './components/addPokemon/addPokemon';
 import Navbar from './components/navbar/navbar';
+
 import { getAllPokemon } from './services/pokemon'
 
 
@@ -24,6 +26,7 @@ function App() {
 
     return <div>
             <Navbar/>
+            <Add/>
            {loading ? <h1>Loading ...</h1> : <h1>Data fetched successfully</h1>}
     
            </div>;
