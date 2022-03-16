@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css'
-
+// function to display a navbar
 function Navbar(){
 
     return <body>
@@ -10,7 +10,7 @@ function Navbar(){
                 <input type="checkbox" id="checkbox_toggle" />
                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 <div class="menu">
-                <li><a href="/">Home</a></li>
+                {/* <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
                 <li class="services">
                 <a href="/">Services</a>
@@ -23,7 +23,7 @@ function Navbar(){
                 </ul>
                 </li>
                 <li><a href="/">Pricing</a></li>
-                <li><a href="/">Contact</a></li>
+                <li><a href="/">Contact</a></li> */}
                 </div>
             </ul>
             </nav>

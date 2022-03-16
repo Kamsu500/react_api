@@ -6,6 +6,7 @@ import Card from './components/card';
 
 import { getAllPokemon,getPokemon } from './services/pokemon'
 
+//function to get all pokemons and get one by card
 
 function App() {
     const [pokemonData,setPokemonData]=useState([]);

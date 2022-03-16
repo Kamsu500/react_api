@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css'
-
+// function to display a pokemon
 function Card({pokemon}){
 
     return (
