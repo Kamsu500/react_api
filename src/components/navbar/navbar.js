@@ -5,7 +5,7 @@ function Navbar(){
 
     return <body>
             <nav class="navbar">
-            <div class="logo">POKEMON</div>
+            <div class="logo">POKEMON API</div>
             <ul class="nav-links">
                 <input type="checkbox" id="checkbox_toggle" />
                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>

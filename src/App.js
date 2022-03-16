@@ -40,8 +40,9 @@ function App() {
 
     return <div>
             <Navbar/>
+            <h1 class='text-center'>Affichage des pokemons</h1>
             <div class='container mt-2'>
-            <div class="row justify-content-between">
+            <div class="row justify-content-evenly">
               <div class="col-4">
                 <button class='btn btn-info'>previous</button>
               </div>
