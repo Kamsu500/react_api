@@ -21,13 +21,13 @@ function App() {
         console.log(response);
       /*   setNextUrl(response.next);
         setPrevUrl(response.previous); */
-        await loadingpPokemon(response.results)
+        await loadingPokemon(response.results)
         setLoading(false);
       }
       fetchData();
     },[]);
 
-    const loadingpPokemon = async(data)=>{
+    const loadingPokemon = async(data)=>{
       
       let _pokemonData = await Promise.all(data.map(async pokemon => {
       let pokemonRecord = await getPokemon(pokemon.url)
