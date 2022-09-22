@@ -10,9 +10,9 @@ function Navbar(){
                 <input type="checkbox" id="checkbox_toggle" />
                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 <div class="menu">
-                {/* <li><a href="/">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
-                <li class="services">
+                {/* <li class="services">
                 <a href="/">Services</a>
                 <ul class="dropdown">
                     <li><a href="/">Dropdown 1 </a></li>
@@ -23,7 +23,7 @@ function Navbar(){
                 </ul>
                 </li>
                 <li><a href="/">Pricing</a></li>
-                <li><a href="/">Contact</a></li> */}
+                <li><a href="/">Contact</a></li>  */}
                 </div>
             </ul>
             </nav>
